@@ -1,3 +1,4 @@
+
 name: Build & Push Docker Image
 
 on:
@@ -39,5 +40,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_USER }}/mysql-restapi:${{ github.sha }}
-            ${{ secrets.DOCKER_USER }}/mysql-restapi:latest
+            ${{ secrets.DOCKER_USER }}/motos-api:${{ github.sha }}
+            ${{ secrets.DOCKER_USER }}/motos-api:latest
