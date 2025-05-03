@@ -1,4 +1,4 @@
-const API_URL = "https://motos-api.onrender.com/api/motos"; // Cambia por tu URL real
+const API_URL = "https://motos-restapi-mysql.onrender.com/api/motos"; // Cambia por tu URL real
 
 function getMotos() {
     $("#resultado").html("<p class='loading'>Cargando motos...</p>");
